@@ -3,15 +3,17 @@ import React from 'react';
 import ReactDom from 'react-dom/client';
 
 import './index.css'
-
+// inserting book data from data file 
 import {books} from './data'
-import Book from './Book';
+
 
 
 // main component
 function BookList(){
     return <>
     <h1>Amazone best sellers</h1>
+    
+    {/* reference javascript map iteration  */}
     {books.map((item)=>{
         
         return <section key={item.id}>
