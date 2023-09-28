@@ -23,5 +23,6 @@ export const books=[
     img:img3,
     id:3,
 
-}
+},
+
 ]
